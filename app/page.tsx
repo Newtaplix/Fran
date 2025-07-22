@@ -20,7 +20,7 @@ const animationVariaints:Variants= {
 }
 
 const HomePage = () => {
-  const [current, setCurrent] = useState(1)
+  const [current, setCurrent] = useState(0)
   return (
     <div className='relative h-screen overflow-hidden'>
 
