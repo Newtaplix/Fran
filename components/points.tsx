@@ -7,7 +7,7 @@ interface point{
 
 const Point = ({text, number}:point) => {
   return (
-    <div className='flex justify-between border-b-2 border-gray-200'>
+    <div className='flex justify-between items-end border-b-2 border-gray-200'>
         <p>{text}</p>
         <p>{number}</p>
     </div>
